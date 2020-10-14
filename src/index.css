@@ -32,6 +32,15 @@ ul {
   text-align: center;
   width: 34px;
 }
+.square.square-x {
+  border: 3px solid yellow;
+}
+.square.square-o {
+  border: 3px solid green;
+}
+.square.square-win {
+  border: 3px solid red !important;
+}
 
 .square:focus {
   outline: none;
